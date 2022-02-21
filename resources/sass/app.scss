@@ -7,6 +7,9 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+@import '/public/css/font-awesome-4.7.0/css/font-awesome.css';
+@import '/public/css/font-awesome-4.7.0/css/font-awesome.min.css';
+
 
 @import '../template/plugins/fontawesome-free/css/all.min.css';
 @import '../template/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css';
@@ -16,3 +19,15 @@
 @import '../template/plugins/overlayScrollbars/css/OverlayScrollbars.min.css';
 @import '../template/plugins/daterangepicker/daterangepicker.css';
 @import '../template/plugins/summernote/summernote-bs4.css';
+
+
+//CSS PAGINA
+@import '../paginatemplate/css/bootstrap.min.css';
+@import '../paginatemplate/css/animate.css';
+@import '../paginatemplate/css/jquery-ui.min.css';
+@import '../paginatemplate/css/meanmenu.min.css';
+@import '../paginatemplate/css/owl.carousel.min.css';
+@import '../paginatemplate/css/jquery.bxslider.css';
+@import '../paginatemplate/css/magnific-popup.css';
+@import '../paginatemplate/css/responsive.css';
+@import '../paginatemplate/css/styleTatto.css';

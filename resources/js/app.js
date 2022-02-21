@@ -23,8 +23,30 @@ require('../template/dist/js/adminlte.js');
 require('../template/dist/js/pages/dashboard.js');
 require('../template/dist/js/demo.js');
 
-window.Vue = require('vue');
 
+// require('../paginatemplate/js/vendor/modernizr-2.8.3.min.js');
+require('../paginatemplate/js/vendor/jquery-1.12.0.min.js');
+require('../paginatemplate/js/tether.min.js');
+require('../paginatemplate/js/owl.carousel.min.js');
+require('../paginatemplate/js/jquery.bxslider.min.js');
+require('../paginatemplate/js/isotope.pkgd.min.js');
+require('../paginatemplate/js/jquery.magnific-popup.min.js');
+require('../paginatemplate/js/jquery.meanmenu.js');
+require('../paginatemplate/js/jarallax.min.js');
+require('../paginatemplate/js/jquery-ui.min.js');
+require('../paginatemplate/js/jquery.counterup.min.js');
+require('../paginatemplate/js/waypoints.min.js');
+require('../paginatemplate/js/wow.min.js');
+require('../paginatemplate/js/masonry.pkgd.min.js');
+require('../paginatemplate/js/jquery.nice-select.min.js');
+require('../paginatemplate/js/plugins.js');
+require('../paginatemplate/js/jquery.inview.min.js');
+// require('../paginatemplate/js/jquery.shuffle.min.js');
+require('../paginatemplate/js/main.js');
+
+
+window.Vue = require('vue');
+new WOW().init();
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
