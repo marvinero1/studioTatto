@@ -191,7 +191,7 @@
 		                                          <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
 		                                        </div>
 		                                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
-		                                        name="nombre_artista">
+		                                        name="nombre_artista" required>
 		                                    </div>
                                     	</div>
                                     	<div class="col">
@@ -199,7 +199,7 @@
 		                                        <div class="input-group-prepend">
 		                                          <span class="input-group-text" id="inputGroup-sizing-default">Rol</span>
 		                                        </div>
-		                                       <select class="form-control">
+		                                       <select class="form-control" name="rol" required>
 													<option value=""></option>
 													<option value="Tatuador">Tatuador</option>
 													<option value="Especialista en piercings">Especialista en piercings</option>
@@ -217,7 +217,7 @@
 		                                          <span class="input-group-text" id="inputGroup-sizing-default">Facebook</span>
 		                                        </div>
 		                                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
-		                                        name="facebook">
+		                                        name="facebook" required>
 		                                    </div>
                                     	</div>
                                     	<div class="col">
@@ -247,7 +247,7 @@
 		                                          <span class="input-group-text" id="inputGroup-sizing-default">Whatsapp</span>
 		                                        </div>
 		                                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
-		                                        name="whatsapp">
+		                                        name="whatsapp" required>
 		                                    </div>
                                     	</div>
                                     </div>
@@ -263,11 +263,6 @@
 		                                    </div>
                                     	</div>
                                     </div>
-
-                                    {{-- @if(Auth::user())
-                                    <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
-                                    @endif --}}
-
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
@@ -276,7 +271,7 @@
                                                 <label for="file-upload" class="custom-file-upload">
                                                     <i class="fa fa-cloud"></i> Custom Upload
                                                 </label>
-                                                <input id="file-upload" type="file" name="imagen"/>
+                                                <input id="file-upload" type="file" name="imagen" required/>
                                             </div>
                                         </div>
                                     </div>

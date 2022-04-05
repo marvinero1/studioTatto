@@ -9,25 +9,25 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-0">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div class="section-heading-one">
-                            <h2><span>01</span> Our Best Services</h2>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem.</p>
-                            <a href="#" class="btn2"><span>More Services</span></a>
+                            <h2><span>01</span> Nuestros Mejores Servicios</h2>
+                            <p>Ofrecer servicios y productos de excelente calidad. Con un personal capacitado para dar soluciones integrales que generen bienestar, compromiso y trabajo en equipo.</p>
+                            <a href="https://wa.me/+59169538869/?text=Hola%20Quisiera%20%20cotizar%20tus%20servicios%20y/o%20Productos";" class="btn2"><span>Mas Información</span></a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pd-0">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="service-list wow animated fadeIn" data-wow-duration="0.5s">
                                 <figure>
-                                    <img src="images/services/1.jpg" alt="" />
-                                    <a href="#">Tattooing</a>
+                                    <img src="images/services/1.jpg" alt="Tattooing" />
+                                    <a>Tattoo</a>
                                 </figure>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="service-list wow animated fadeIn" data-wow-duration="1s">
                                 <figure>
-                                    <img src="images/services/2.jpg" alt="" />
-                                    <a href="#">Piercing</a>
+                                    <img src="images/services/2.jpg" alt="Piercing" />
+                                    <a>Piercing</a>
                                 </figure>
                             </div>
                         </div>
@@ -39,24 +39,24 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="service-list wow animated fadeIn" data-wow-duration="0.5s">
                             <figure>
-                                <img src="images/services/3.jpg" alt="" />
-                                <a href="#">modifications</a>
+                                <img src="images/services/3.jpg" alt="Modificaciones"/>
+                                <a>Modifcaciones</a>
                             </figure>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="service-list wow animated fadeIn" data-wow-duration="1s">
                             <figure>
-                                <img src="images/services/4.jpg" alt="" />
-                                <a href="#">Tattoo Design</a>
+                                <img src="images/services/4.jpg" alt="Diseño" />
+                                <a>Diseño de Tatto</a>
                             </figure>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="service-list wow animated fadeIn" data-wow-duration="1.5s">
                             <figure>
-                                <img src="images/services/5.jpg" alt="" />
-                                <a href="#">consultation</a>
+                                <img src="images/services/5.jpg" alt="Realismo" />
+                                <a>Realismo</a>
                             </figure>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                         <div class="service-list wow animated fadeIn" data-wow-duration="2s">
                             <figure>
                                 <img src="images/services/6.jpg" alt="" />
-                                <a href="#">Tribal Tattoo</a>
+                                <a>Team</a>
                             </figure>
                         </div>
                     </div>
@@ -338,38 +338,38 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="count-list list-1">
                         <div class="count-num wow animated fadeIn" data-wow-duration="0.5s">
-                            <span class="count">910</span>
-                            <span>+</span>
-                        </div>
-                        <h4>Tattoos Design</h4>
-                    </div>
-                    <div class="count-list list-2">
-                        <div class="count-num wow animated fadeIn" data-wow-duration="1s">
                             <span class="count">510</span>
                             <span>+</span>
                         </div>
-                        <h4>Piercing Done</h4>
+                        <h4>Tattoos</h4>
+                    </div>
+                    <div class="count-list list-2">
+                        <div class="count-num wow animated fadeIn" data-wow-duration="1s">
+                            <span class="count">125</span>
+                            <span>+</span>
+                        </div>
+                        <h4>Piercing</h4>
                     </div>
                     <div class="count-list list-3">
                         <div class="count-num wow animated fadeIn" data-wow-duration="1.5s">
-                            <span class="count">352</span>
+                            <span class="count">30</span>
                             <span>+</span>
                         </div>
-                        <h4>Corrective Makeup</h4>
+                        <h4>Modificaciones</h4>
                     </div>
                     <div class="count-list list-4">
                         <div class="count-num wow animated fadeIn" data-wow-duration="2s">
-                            <span class="count">205</span>
+                            <span class="count">8</span>
                             <span>+</span>
                         </div>
-                        <h4>Number of Awards</h4>
+                        <h4>Numeor de Premios</h4>
                     </div>
                     <div class="count-list list-5">
                         <div class="count-num wow animated fadeIn" data-wow-duration="2.5s">
-                            <span class="count">2524</span>
+                            <span class="count">400</span>
                             <span>+</span>
                         </div>
-                        <h4>Happy Clients</h4>
+                        <h4>Clientes Felices! </h4>
                     </div>
                 </div>
             </div>
@@ -522,7 +522,7 @@
                         @foreach($producto as $productos)
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="pro-list">
-                                <figure><img src="/{{ $productos->imagen }}" alt="" /></figure>
+                                <figure><img src="/{{ $productos->imagen }}" alt="" style="height: 317px;" /></figure>
                                 <div class="content">
                                     <div class="price">
                                         <span>Bs. {{ $productos->precio }}</span>
@@ -537,7 +537,7 @@
                                     <h3>{{ $productos->nombre_producto }}</h3>
                                     <p>Marca: <span><strong>{{ $productos->marca }}</strong></span></p>
 
-                                    <a href="#" class="btn4"><span>Consultar</span></a>
+                                    <a href="https://wa.me/+59169538869/?text=Hola%20Quisiera%20%20cotizar%20tus%20servicios%20y/o%20Productos";" class="btn4"><span>Consultar</span></a>
                                 </div>
                             </div>
                         </div>
@@ -549,7 +549,7 @@
     </section>
     <!--Product area end here-->
     <!--Banner area start here-->
-    <section class="banner-area">
+    {{-- <section class="banner-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -567,7 +567,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--Banner area end here-->
 </div>
 <div data-scroll='6' class="full_width">
@@ -622,52 +622,34 @@
         </div>
     </section>
     <!--Team area end here-->
+
+
     <!--Testimonial area start here-->
     <section class="testimonial-area section bg-img jarallax af">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="section-heading-four">
-                        <h2 class="mr-0"><span>07</span> Our Client Says</h2>
+                        <h2 class="mr-0"><span>07</span> Nuestros Clientes</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="testimonial-slider">
-                        <div class="testimonial-list">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <div class="content">
-                                    <p>"There is something in the act of having tattoos done that I love.It can be addictive. I am Bring Tattoo to Life "</p>
-                                    <a href="#">~ by <span>Marry Doe</span></a>
+                        @foreach($blog as $blogs)
+                            <div class="testimonial-list">
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                    <div class="content">
+                                        <p>{{ $blogs->detalle }}</p>
+                                        <a href="#">~ De: <span>{{ $blogs->nombre_cliente }}</span></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <figure><img src="/{{ $blogs->imagen }}" alt="{{ $blogs->nombre_cliente }}" /></figure>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <figure><img src="images/testimonial/1.jpg" alt="" /></figure>
-                            </div>
-                        </div>
-                        <div class="testimonial-list">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <div class="content">
-                                    <p>"There is something in the act of having tattoos done that I love.It can be addictive. I am Bring Tattoo to Life "</p>
-                                    <a href="#">~ by <span>Marry Doe</span></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <figure><img src="images/testimonial/2.jpg" alt="" /></figure>
-                            </div>
-                        </div>
-                        <div class="testimonial-list">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <div class="content">
-                                    <p>"There is something in the act of having tattoos done that I love.It can be addictive. I am Bring Tattoo to Life "</p>
-                                    <a href="#">~ by <span>Marry Doe</span></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <figure><img src="images/testimonial/3.jpg" alt="" /></figure>
-                            </div>
-                        </div>
+                        @endforeach           
                     </div>
                 </div>
             </div>
@@ -751,7 +733,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-0">
-                    <div class="videos-content">
+                    {{-- <div class="videos-content">
                         <div class="left-con">
                             <h2>Welcome to Our Video Tour</h2>
                         </div>
@@ -759,8 +741,16 @@
                             <h2>See Our Best Work !</h2>
                         </div>
                         <div class="video-link wow animated zoomIn" data-wow-duration="1.5s">
-                            <a href="https://www.youtube.com/watch?v=G9eJrVZFJ6A" class="video-play-icon"><img src="images/icons/play.png" alt=""/></a>
+                            <a href="https://www.facebook.com/watch/?v=375669767139137" class="video-play-icon"><img src="images/icons/play.png" alt=""/></a>
                         </div>
+                    </div> --}}
+                    <div class="left-con text-center">
+                        <h2>!Disfruta del Video¡</h2>
+                    </div><br>
+                    <div class="text-center">
+                        <video width="50%" height="auto" controls style="width: 50%;height: auto;">
+                            <source src="/images/videoFijo/presentacion.mp4">
+                        </video> 
                     </div>
                 </div>
             </div>
@@ -773,11 +763,11 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="section-heading-three">
-                        <h2><span>09</span> Latest News & Blog</h2>
+                        <h2><span>09</span> Nuestros ultimos eventos junto Al Baul de recuerdos</h2>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem </p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-md-offset-1">
+                {{-- <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-md-offset-1">
                     <div class="product-heading wow animated fadeIn" data-wow-duration="2.5s">
                         <div class="con">
                             <select>
@@ -788,23 +778,25 @@
                             <a href="#" class="btn5"><span>Visit Our Shop</span></a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="blog-list">
-                        <figure><img src="images/blog/1.jpg" alt="" /></figure>
-                        <div class="content">
-                            <h3><a href="#">Best Tattoo Design</a></h3>
-                            <ul class="list-inline">
-                                <li>By Admin</li>
-                                <li>July 29, 2018</li>
-                            </ul>
-                            <p>Sollicitudin, lorem quis bibe u auctor, nisi elit nat ipsu, nec sagittis sem ni id elit.</p>
-                            <a href="blog.html">Read More >></a>
+                    @foreach($evento as $eventos)
+                        <div class="blog-list">
+                            <figure><img src="/{{ $eventos->imagen }}" alt="{{ $eventos->titulo }}" /></figure>
+                            <div class="content">
+                                <h3><a>{{ $eventos->titulo }}</a></h3>
+                                <ul class="list-inline">
+                                    <li>By {{ $eventos->posteador }}</li>
+                                    <li>{{ date('M-d, Y', strtotime($eventos->fecha))}}</li>
+                                </ul>
+                                <p>{{ $eventos->detalle }}</p>
+                                {{-- <a href="blog.html">Read More >></a> --}}
+                            </div>
                         </div>
-                    </div>
-                    <div class="blog-list">
+                    @endforeach
+                    {{-- <div class="blog-list">
                         <figure><img src="images/blog/4.jpg" alt="" /></figure>
                         <div class="content">
                             <h3><a href="#">SIMPLE SHAPES</a></h3>
@@ -815,63 +807,10 @@
                             <p>Sollicitudin, lorem quis bibe u auctor, nisi elit nat ipsu, nec sagittis sem ni id elit.</p>
                             <a href="blog.html">Read More >></a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="blog-list">
-                        <figure><img src="images/blog/2.jpg" alt="" /></figure>
-                        <div class="content">
-                            <h3><a href="#">SHOW YOUR PERSONALITY</a></h3>
-                            <ul class="list-inline">
-                                <li>By Admin</li>
-                                <li>July 29, 2018</li>
-                            </ul>
-                            <p>Sollicitudin, lorem quis bibe u auctor, nisi elit nat ipsu, nec sagittis sem ni id elit.</p>
-                            <a href="blog.html">Read More >></a>
-                        </div>
-                    </div>
-                    <div class="blog-list">
-                        <figure><img src="images/blog/5.jpg" alt="" /></figure>
-                        <div class="content">
-                            <h3><a href="#">FULL SLEEVE TATTOOS</a></h3>
-                            <ul class="list-inline">
-                                <li>By Admin</li>
-                                <li>July 29, 2018</li>
-                            </ul>
-                            <p>Sollicitudin, lorem quis bibe u auctor, nisi elit nat ipsu, nec sagittis sem ni id elit.</p>
-                            <a href="blog.html">Read More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="blog-list">
-                        <figure><img src="images/blog/3.jpg" alt="" /></figure>
-                        <div class="content">
-                            <h3><a href="#">POWERFUL SOLUTIONS</a></h3>
-                            <ul class="list-inline">
-                                <li>By Admin</li>
-                                <li>July 29, 2018</li>
-                            </ul>
-                            <p>Sollicitudin, lorem quis bibe u auctor, nisi elit nat ipsu, nec sagittis sem ni id elit.</p>
-                            <a href="blog.html">Read More >></a>
-                        </div>
-                    </div>
-                    <div class="blog-list">
-                        <figure><img src="images/blog/6.jpg" alt="" /></figure>
-                        <div class="content">
-                            <h3><a href="#">Tattoo Artist Needed</a></h3>
-                            <ul class="list-inline">
-                                <li>By Admin</li>
-                                <li>July 29, 2018</li>
-                            </ul>
-                            <p>Sollicitudin, lorem quis bibe u auctor, nisi elit nat ipsu, nec sagittis sem ni id elit.</p>
-                            <a href="blog.html">Read More >></a>
-                        </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
     </section>
-    <!--Blog area end here-->
 </div>
 @endsection

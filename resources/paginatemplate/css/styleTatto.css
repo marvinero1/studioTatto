@@ -2042,7 +2042,7 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
   justify-content: space-around;
 }
 .slider-area .slider-social li a {
-  color: rgba(255, 255, 255, 0.3);
+  color: yellow;
   display: block;
   padding: 0px 11px 17px 54px;
   position: relative;
@@ -2286,7 +2286,7 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
 ....................................*/
 footer {
   position: relative;
-  background: url(/images/banner/bg-2.jpg);
+  background: url(/images/footer/2.jpg);
   display: block;
 }
 footer:after {
@@ -2481,7 +2481,7 @@ footer .footer-top .instagram ul li i {
   left: 0;
   right: 0;
   top: 45%;
-  color: #e3e30e;
+  color: black;
   z-index: 999;
   transition: all 0.3s;
   opacity: 0;
@@ -2504,14 +2504,18 @@ footer .footer-top .instagram ul li:hover i {
 6. Banner area start here
 ....................................*/
 .video-banner {
-  position: relative;
+  /* position: relative; */
   display: block;
-  padding: 260px 0;
-  padding-top:230px;
-  background: url(/images/banner/bg-1.jpg);
+  /* padding: 260px 0; */
+  padding-top:75px;
+  /* background-color: rgb(213, 211, 110); */
+  /* background: rgb(247,0,0); */
+  /* background: linear-gradient(217deg, rgba(247,0,0,1) 0%, rgba(234,244,46,1) 50%, rgba(25,159,5,1) 100%); */
+  background: rgb(247,0,0);
+  background: linear-gradient(137deg, rgba(247,0,0,1) 0%, rgba(234,244,46,1) 50%, rgba(25,159,5,1) 100%);
 }
 .video-banner:after {
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
 }
 .video-banner .videos-content {
   position: relative;
@@ -3405,7 +3409,7 @@ footer .footer-top .instagram ul li:hover i {
 12. Testimonial area start here
 ....................................*/
 .testimonial-area {
-  background: url(/images/testimonial/bg-1.jpg);
+  background: url(/images/testimonial/bg-1.jpeg);
   position: relative;
   display: block;
 }

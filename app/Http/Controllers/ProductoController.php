@@ -20,11 +20,9 @@ class ProductoController extends Controller
 
         $nombre_producto = $request->get('buscarpor');
 
-        $producto = Producto::where('nombre_producto','like',"%$nombre_producto%")
-        ->latest()->paginate(10);
+        $producto = Producto::where('nombre_producto','like',"%$nombre_producto%")->latest()->paginate(10);
 
         return view('producto.index', compact('producto'));
-
     }
 
     /**
@@ -127,8 +125,14 @@ class ProductoController extends Controller
      * @param  \App\Producto  $producto
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Producto $producto)
-    {
-        //
+    public function destroy($id){
+        $mensajeEliminacion = "Producto Eliminado Correctamente";
+
+        $productos = Producto::findOrFail($id);
+
+        $productos->delete();
+
+        Session::flash('message',$mensajeEliminacion);
+        return redirect()->route('productos.index');
     }
 }

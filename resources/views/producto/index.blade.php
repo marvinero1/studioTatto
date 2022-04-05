@@ -37,6 +37,9 @@
                     <tr>
                         <th style="text-align:center;">Imagen</th>
                         <th style="text-align:center;">Nombre</th>
+                        <th style="text-align:center;">Marca</th>
+                        <th style="text-align:center;">Precio</th>
+                
                         <th style="text-align:center;">Acciones</th>
                     </tr>
                 </thead>
@@ -44,14 +47,16 @@
                     @foreach($producto as $productos)
                     <tr>
                         <td style="text-align:center;">
-                            <img src="/{{ $productos->imagen }}" alt="{{ $productos->nombre }}" width="175px;"></td>
+                            <img src="/{{ $productos->imagen }}" alt="{{ $productos->nombre }}" width="150px;"></td>
 
-                        <td style="text-align:center;">{{ $productos->nombre }}</td>
-                        {{-- <td style="text-align:center;">{{ $favoritos->user_id }}</td> --}}
-                        <a class="btn btn-app " href="{{ route('productos.show',$productos->id ) }}">
-                                    <i class="fas fa-eye"></i> Ver
-                                </a>
+                        <td style="text-align:center;">{{ $productos->nombre_producto }}</td>
+                        <td style="text-align:center;">{{ $productos->marca }}</td>
+                        <td style="text-align:center;">{{ $productos->precio }} Bs.</td>
+
                         <td style="text-align:center;">
+                            {{-- <a class="btn btn-app " href="{{ route('productos.show',$productos->id ) }}">
+                                <i class="fas fa-eye"></i> Ver
+                            </a> --}}
                             <form action="{{ route('productos.destroy',$productos->id ) }}" method="POST"
                                 accept-charset="UTF-8" style="display:inline">
                                 @csrf

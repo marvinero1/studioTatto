@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Carusel;
 use App\Artista;
 use App\Producto;
+use App\Blog;
+use App\Evento;
 
 class IndexController extends Controller{
 
@@ -13,7 +15,9 @@ class IndexController extends Controller{
         $whatsapp=0;
         $whatsapp_url = "";
         $artistas = Artista::get();
-        $producto = Producto::get();
+        $producto = Producto::latest()->paginate();
+        $blog = Blog::latest()->paginate();
+        $evento = Evento::latest()->paginate();
 
         foreach($artistas as $artistass){
             if (!$artistass) {
@@ -23,9 +27,8 @@ class IndexController extends Controller{
             } else {
                 // code...
             }
-            
-            
         }
-        return view('paginalayouts.indexpage', compact('artistas','whatsapp_url','producto'));
+        
+        return view('paginalayouts.indexpage', compact('artistas','whatsapp_url','producto','blog','evento'));
     }
 }

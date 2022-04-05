@@ -73,7 +73,6 @@ class ArtistaController extends Controller
             }
         }
 
-
         $artista = Artista::create($requestData);
 
         if($artista){

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="logo">
-                        <a href="index.html"><img src="images/logo/logo.png" alt="logo"/></a>
+                        <a href="/"><img src="images/logo/logo.png" alt="logo"/></a>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
@@ -125,8 +125,8 @@
                 </div><br><br><br>
                 <ul class="slider-social">
                     <li><a href="https://www.facebook.com/elclubdeltatuaje" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                    {{-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-telegram"></i></a></li> --}}
                     <li><a href="https://wa.me/+59169538869/?text=Hola%20Quisiera%20%20cotizar%20tus%20servicios%20y/o%20Productos";"><i class="fa fa-whatsapp"></i></a></li>
 
                     <li><a href="https://www.instagram.com/elclubdeltatuaje/?utm_medium=copy_link&fbclid=IwAR2edU5ChL53dvxwl4WRS42P0RgN7uoaW4Pz_WjByx0lvC6nIDzyEj5H4n0" target="_blank">
@@ -140,10 +140,7 @@
                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     </ul>
-                
                 </div> --}}
-                
-                
             </div>
         </section>
         <!--Slider area end here-->

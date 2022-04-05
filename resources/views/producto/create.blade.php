@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="card card-dark p-3">
+                    <div class="card card-yellow p-3">
                         <div class="card-header">
                             <h3 class="card-title">Registro Artículo</h3>
                         </div>
@@ -40,7 +40,7 @@
                                     <div class="form-group">
                                         <label for="fecha">Precio</label>
                                         <input type="number" class="form-control" id="precio" name="precio"
-                                            placeholder="Precio">
+                                            placeholder="Precio" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -63,7 +63,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="descripcion">Descripción</label>
-                                        <textarea class="form-control" id="descripcion" rows="3" name="descripcion"></textarea>
+                                        <textarea class="form-control" id="detalle" rows="3" name="detalle" required></textarea>
                                     </div>
                                 </div>
 
@@ -71,7 +71,7 @@
                         </div>
 
                         <div class="card-footer">
-                            <a href="{{url('/articulos')}}"><button class="btn  float-right" style="color: white"> <i class="fas fa-window-close"></i>
+                            <a href="{{url('/productos')}}"><button class="btn  float-right" style="color: white"> <i class="fas fa-window-close"></i>
                                 Cancelar</a>
 
                             <button type="submit" class="btn btn-primary float-right"><i class="fas fa-save"></i>

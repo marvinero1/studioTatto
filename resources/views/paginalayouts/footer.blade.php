@@ -6,15 +6,16 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="foo-logo text-center wow animated flash" data-wow-duration="1.5s">
-                                <a href="index.html"><img src="images/logo/logo2.png" alt=""/></a>
+                                <a href="/"><img src="images/icons/1.png" alt="logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="foo-about widget">
-                                <h3>About Ourself</h3>
-                                <p>Please write your email and get our amazing updates, news and support. Proin gravida nibh vel velit.</p>
+                                <h3>Acerca de Nosotros</h3>
+                                <p style="color: white;">Please write your email and get our amazing updates, news and
+                                    support. Proin gravida nibh vel velit.</p>
                                 <form>
-                                    <label>Get latest updates and offers.</label>
+                                    <label>Obten las promociones y catalogos.</label>
                                     <input type="email" placeholder="Email">
                                     <button type="submit"><i class="fa fa-long-arrow-right"></i></button>
                                 </form>
@@ -22,14 +23,21 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="foo-twitt widget">
-                                <h3>Twitter Feed</h3>
+                                <h3>Facebook Feed</h3>
                                 <div class="twi-post">
-                                    <h4><i class="fa fa-twitter"></i><a href="#">@ajaysuryavanshi</a><span>- 4 Hours ago</span></h4>
-                                    <p><a href="#">http://example.com</a> Click Here, One More Approved <span>#webstrot  #PSD</span></p>
+                                    <h4><i class="fa fa-facebook"></i><a
+                                            href="https://www.facebook.com/elclubdeltatuaje/about">@elclubdeltatuaje</a><span
+                                            style="color: white;">- 2021</span></h4>
+                                    <p><a
+                                            href="https://www.facebook.com/elclubdeltatuaje/reviews/?ref=page_internal">https://www.facebook.com/elclubdeltatuaje/</a>
+                                        <br><span>#elclubdeltatuaje #tatto</span></p>
                                 </div>
                                 <div class="twi-post">
-                                    <h4><i class="fa fa-twitter"></i><a href="#">@akshayhandge</a><span>- 4 Hours ago</span></h4>
-                                    <p><a href="#">http://example.com</a> Click Here, One More Approved <span>#webstrot  #PSD</span></p>
+                                    <h4><i class="fa fa-facebook"></i><a href="#">@elclubdeltatuaje</a><span
+                                            style="color: white;">- 2022</span></h4>
+                                    <p><a
+                                            href="https://www.facebook.com/elclubdeltatuaje/videos/?ref=page_internal">https://www.facebook.com/elclubdeltatuaje/</a><span>#videosTatto
+                                            #elclubVideos</span></p>
                                 </div>
                             </div>
                         </div>
@@ -37,12 +45,15 @@
                             <div class="instagram widget">
                                 <h3>instagram</h3>
                                 <ul class="list-inline">
-                                    <li><img src="images/instagram/1.png" alt="" /><i class="fa fa-search"></i></li>
-                                    <li><img src="images/instagram/2.png" alt="" /><i class="fa fa-search"></i></li>
-                                    <li><img src="images/instagram/3.png" alt="" /><i class="fa fa-search"></i></li>
-                                    <li><img src="images/instagram/4.png" alt="" /><i class="fa fa-search"></i></li>
-                                    <li><img src="images/instagram/5.png" alt="" /><i class="fa fa-search"></i></li>
-                                    <li><img src="images/instagram/6.png" alt="" /><i class="fa fa-search"></i></li>
+                                    <li><img src="images/instagram/1.jpg" alt="" /><a
+                                            href="https://www.instagram.com/elclubdeltatuaje/?utm_medium=copy_link&fbclid=IwAR14oPOHzyCz720WrsG-y0-HiBofeezCW3I7lPezltfeT2j5EtTw3Jgdngs"
+                                            target="_blank"><i class="fa fa-search"></i></a></li>
+                                    <li><img src="images/instagram/2.jpg" alt="" /><a
+                                            href="https://www.instagram.com/henry.patzi/" target="_blank"><i
+                                                class="fa fa-search"></i></a></li>
+                                    {{-- <li><img src="images/instagram/3.jpg" alt="LaPingui" /><a href="https://www.instagram.com/la.fabyfuentes/" target="_blank"><i class="fa fa-search"></i></a></li> --}}
+                                    {{-- <li><img src="images/instagram/4.jpg" alt="" /><a href="https://www.instagram.com/ducy_bolivia/" target="_blank"><i class="fa fa-search"></i></a></li> --}}
+                                    {{-- <li><img src="images/instagram/5.jpg" alt="" /><a href="https://www.instagram.com/renato_loredo/" target="_blank"><i class="fa fa-search"></i></a></li> --}}
                                 </ul>
                             </div>
                         </div>
@@ -54,15 +65,25 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-0">
                             <div class="copyright">
-                                <p>© 2018 - 2019 Crafter Tattoo. Design by Webstrot. </p>
+                                <div style="color: white;">
+                                    &copy;
+                                    <span id="copyright">
+                                        <script>
+                                            document.getElementById('copyright').appendChild(document.createTextNode(
+                                                new Date().getFullYear()))
+                                        </script>
+                                    </span> -
+                                    <a href=""> NeroSolutions</a>
+                                </div>
                             </div>
                             <div class="foo-social">
                                 <ul class="list-inline">
-                                    <li><a href="#">Facebook</a></li>
-                                    <li><a href="#">twitter</a></li>
-                                    <li><a href="#">instagram</a></li>
-                                    <li><a href="#">google+</a></li>
-                                    <li><a href="#">pintrest</a></li>
+                                    <li><a href="https://www.facebook.com/elclubdeltatuaje" target="_blank">Facebook</a>
+                                    </li>
+                                    <li><a href="https://wa.me/+59169538869/?text=Hola%20Quisiera%20%20cotizar%20tus%20servicios%20y/o%20Productos"
+                                            ; target="_blank">whatsapp</a></li>
+                                    <li><a href="https://www.instagram.com/elclubdeltatuaje/?utm_medium=copy_link&fbclid=IwAR2edU5ChL53dvxwl4WRS42P0RgN7uoaW4Pz_WjByx0lvC6nIDzyEj5H4n0"
+                                            target="_blank">instagram</a></li>
                                 </ul>
                             </div>
 

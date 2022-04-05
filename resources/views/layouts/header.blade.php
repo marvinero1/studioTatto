@@ -73,7 +73,7 @@ background: linear-gradient(90deg, rgba(255,223,0,1) 1%, rgba(0,0,0,1) 99%);">
             <li class="nav-item">
                 <a href="/blog" class="nav-link">
                 <i class="nav-icon fa fa-newspaper" aria-hidden="true"></i>
-                <p>Blog</p>
+                <p>Testimonial</p>
                 </a>
             </li>
             <li class="nav-item">
@@ -100,12 +100,12 @@ background: linear-gradient(90deg, rgba(255,223,0,1) 1%, rgba(0,0,0,1) 99%);">
                 <p>Productos</p>
                 </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a href="/videos" class="nav-link">
                 <i class="nav-icon fa fa-video" aria-hidden="true"></i>
                 <p>Videos</p>
                 </a>
-            </li>
+            </li> --}}
         </ul>
       </nav>
     </div>
